@@ -13,3 +13,21 @@ width: 100%;
 body{
   background-color:#111;;
 }
+.card{
+  width: 300px;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+}
+.nav{
+  background-color: rgb(103, 20, 124);
+  padding: 20px;
+  margin: 15px;
+}
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap:wrap ;
+}
