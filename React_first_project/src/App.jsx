@@ -1,14 +1,15 @@
-import React from "react"
-import Card from "./components/Card.jsx"
-import { Navbar } from "./components/Navbar.jsx"
-const App = () => {
+import Navbar from "./components/Navbar";
+import FilterBar from "./components/FilterBar";
+import JobList from "./components/JobList";
+
+function App() {
   return (
-    <div className='parent'>
-     <div className="card">
-      <h1> I am prajjawal</h1>
-     </div>
-    </div >
-  )
+    <div>
+      <Navbar />
+      <FilterBar />
+      <JobList />
+    </div>
+  );
 }
 
-export default App
+export default App;
